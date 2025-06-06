@@ -100,12 +100,12 @@ model {
 	k1[1] ~ uniform(-0.5, 2.5);
 	c1 ~ normal(1.5, 0.025);
 	a2 ~ normal(20,5);
-	k2[1] ~ normal(4, 0.5);
+	k2[1] ~ uniform(1, 5.5);
 	c2 ~ normal(1.67, 0.025);
 	a3 ~ normal(20,5);
 	k3[1] ~ normal(6.0, 0.8);
 	c3 ~ normal(1.67, 0.25);
-    a4 ~ normal(22, 0.5);
+    	a4 ~ normal(22, 0.5);
 	b4 ~ normal(0, 0.30);
 	c4 ~ lognormal(log(1.75), 0.02);
 	gamma1 ~ uniform(0.0001,0.3);
