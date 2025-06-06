@@ -197,7 +197,7 @@ SPD<-function(tau0,tauf,medicoes){
     
     k1 <- as.array(rnorm(K, 0, 0.15))
     
-    k2 <- as.array(rnorm(K, 4, 0.05))
+    k2 <- as.array(runif(K, 1.5, 3.0))
     k3 <- as.array(rnorm(K, 6, 0.05))
     # k3<-NULL
     b4<-0 + rnorm(1,0,0.25)
